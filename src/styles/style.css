@@ -1,0 +1,36 @@
+ @import url(./global.css);
+ 
+ /* -------------------- Header --------------------*/
+
+header{
+    display: flex; /*Garente que cada item ocupe o próprio espaço SÓ É COLOCADO NO PAI PARA ATINGIR O FILHO*/
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-purple900);
+    padding: 15px 0;
+}
+
+.menu{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.menu li a{
+    color: var(--color-white);
+    text-decoration: none;
+    text-transform: uppercase; /*Serve para deixar o texto em caixa alta */
+    font-family: var(--font-title);
+    font-size: 20px;
+}
+
+.btnLogin{
+    color: var(--color-white);
+    background-color: var(--color-purple500);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--font-title);
+    font-size: 20px;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
