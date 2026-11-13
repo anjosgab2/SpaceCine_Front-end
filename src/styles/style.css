@@ -81,3 +81,7 @@ main p{
 .btnSegundary{
     border: 1px solid var(--color-white);
 }
+
+.showing-content span{
+    color: var(--color-purple300);
+}
